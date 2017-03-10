@@ -15,6 +15,9 @@ class CreateResidueTypesTable extends Migration
     {
         Schema::create('residue_types', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name', 50);
+            $table->string('description', 100);
+            $table->string('image', 100);
             $table->timestamps();
         });
     }
