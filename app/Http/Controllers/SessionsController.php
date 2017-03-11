@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class SessionsController extends Controller
 {
     public function __construct(){
-        $this->middleware('guest', ['except' => 'destroy']);
+        $this->middleware('guest')->except(['destroy', 'show']);
     }
 
     public function create(){
@@ -27,6 +27,14 @@ class SessionsController extends Controller
             ]);
         }
 
-        return redirect('/');
+        return redirect('profile');
+    }
+
+    public function show(){
+        $user =  auth()->user();
+        $locations = $user->locations;
+        $pins = $user->pins;
+
+        return view('profile.index', compact('locations', 'pins'));
     }
 }

@@ -16,6 +16,8 @@ Route::get('/', function () {
     return view('index', compact('residues'));
 }) ->name('home');
 
+Route::get('/profile', 'SessionsController@show');
+
 Route::get('/register', 'RegistrationController@create');
 Route::post('/register', 'RegistrationController@store');
 
