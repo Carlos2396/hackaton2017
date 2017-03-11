@@ -3,6 +3,7 @@
     <script type="text/javascript">
         var map;
         var coords;
+        var marker;
         function initMap() {
             coords = new google.maps.LatLng(19.020638, -98.243254);
             map = new google.maps.Map(document.getElementById('map'), {
@@ -10,7 +11,7 @@
                 zoom: 15
             });
 
-            var marker = new google.maps.Marker({
+            marker = new google.maps.Marker({
                 position: coords,
                 map: map,
                 draggable:true,

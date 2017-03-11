@@ -24,10 +24,17 @@
                 <label for="address">Dirección</label>
                 <input type="text" class="form-control" id="address" name="address" required>
             </div>
-            <input type="text" class="form-control" id="lat" name="lat">
-            <input type="text" class="form-control" id="lng" name="lng">
+            <input type="hidden" class="form-control" id="lat" name="lat">
+            <input type="hidden" class="form-control" id="lng" name="lng">
             <div class="text-center">
-                <button type="submit" class="btn btn-template-main"><i class="fa fa-user-md"></i>Agregar</button>
+                <button type="submit" class="btn btn-template-main" onclick="setCoords();"><i class="fa fa-user-md"></i>Agregar</button>
+                <script type="text/javascript">
+                    function setCoords(){
+                        alert("You button was pressed");
+                        document.getElementById('lat').value = marker.getPosition().lat();
+                        document.getElementById('lng').value = marker.getPosition().lng();
+                    };
+                </script>
             </div>
             <hr>
             </form>

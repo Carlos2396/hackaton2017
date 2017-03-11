@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Location;
 
 class LocationController extends Controller
 {
@@ -15,7 +16,20 @@ class LocationController extends Controller
     }
 
     public function store(){
-        
-        return view('location.create');
+
+        $this->validate(request(), [
+            'name' => 'required',
+            'address' => 'required',
+        ]);
+
+        Location::create([
+            'user_id' => auth()->user()->id,
+            'name' => request('name'),
+            'address' => request('address'),
+            'lat' => (double)request('lat'),
+            'lng' => (double)request('lng')
+        ]);
+
+        return view('profile.index');
     }
 }
