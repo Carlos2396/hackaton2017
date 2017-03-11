@@ -24,6 +24,8 @@
                 <label for="address">Dirección</label>
                 <input type="text" class="form-control" id="address" name="address" required>
             </div>
+            <input type="text" class="form-control" id="lat" name="lat">
+            <input type="text" class="form-control" id="lng" name="lng">
             <div class="text-center">
                 <button type="submit" class="btn btn-template-main"><i class="fa fa-user-md"></i>Agregar</button>
             </div>

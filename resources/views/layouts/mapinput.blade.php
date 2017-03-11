@@ -2,14 +2,20 @@
     <div id="map" class="col-sm-12" style="height: 500px"></div>
     <script type="text/javascript">
         var map;
+        var coords;
         function initMap() {
+            coords = new google.maps.LatLng(19.020638, -98.243254);
             map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: 19.020638, lng: -98.243254},
+                center: coords,
                 zoom: 15
             });
+
+            var marker = new google.maps.Marker({
+                position: coords,
+                map: map,
+                draggable:true,
+                title:"Arrástrame!"
+            });
         }
-
     </script>
-
-
 </div>
