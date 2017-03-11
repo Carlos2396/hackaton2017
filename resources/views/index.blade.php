@@ -62,21 +62,22 @@
                         </div>
                     </div>
                     <!-- /.row -->
+                     <div class="row">
                     @foreach($residues as $residue)
-                    <div class="row">
                         <div class="col-md-3 col-sm-3">
                             <div class="team-member" data-animate="fadeInUp">
                                 <div class="image">
-                                    <a href="#">
+                                    <a href="team-member.html">
                                         <img src="img/{{$residue->image}}" alt="" class="img-responsive img-circle">
                                     </a>
                                 </div>
-                                <h3>{{$residue->name}}</h3>
+                                <h3><a href="team-member.html">{{$residue->name}}</a></h3>
                                 <p class="role">{{$residue->description}}</p>
                             </div>
                             <!-- /.team-member -->
-                    </div>
+                        </div>
                     @endforeach
+                    </div>
                     <!-- /.row -->
 
                 </div>
