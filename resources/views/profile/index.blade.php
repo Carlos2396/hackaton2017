@@ -21,8 +21,10 @@
                                 </div>
                             </div>
                     @endforeach
-                    <p><a href="/localization/create" class="btn btn-template-main">Agregar ubicación</a>
-                    </p>
+                    <div class="text-center">
+                        <p><a href="/location" class="btn btn-template-main">Agregar ubicación</a>
+                        </p>
+                    </div>
                 </div>
 
                 <div class="col-sm-8">

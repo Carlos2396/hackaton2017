@@ -34,5 +34,6 @@
                 @include('layouts.errors')
             </div>
         </div>
+    </div>
 </div>
 @endsection
