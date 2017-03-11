@@ -13,7 +13,8 @@
 
 Route::get('/', function () {
     $residues = App\Residue_type::all();
-    return view('index', compact('residues'));
+    $affiliates = App\Affiliates::all();
+    return view('index', compact('residues', 'affiliates'));
 }) ->name('home');
 
 Route::get('/profile', 'SessionsController@show');
