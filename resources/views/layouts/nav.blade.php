@@ -5,7 +5,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.html">
+                <a class="navbar-brand home" href="/">
                     <img src="img/logo.png" alt="Universal logo" class="hidden-xs hidden-sm">
                     <img src="img/logo-small.png" alt="Universal logo" class="visible-xs visible-sm"><span class="sr-only">Universal - go to homepage</span>
                 </a>
@@ -24,11 +24,11 @@
                     <li class="dropdown active">
                         <a href="javascript: void(0)" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="index.html">General</a>
+                            <li><a href="/">General</a>
                             </li>
-                            <li><a href="index2.html">Características</a>
+                            <li><a href="/">Acerca de nosotros</a>
                             </li>
-                            <li><a href="index3.html">Colaboradores</a>
+                            <li><a href="/">Colaboradores</a>
                             </li>
                         </ul>
                     </li>

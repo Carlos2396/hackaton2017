@@ -38,8 +38,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="text-uppercase">Expliación sobre loque hacemos</h2>
-                    <p class="lead mb-small">40+ prepared HTML templates</p>
+                    <h2 class="text-uppercase">Acerca de nosotros</h2>
+                    <p class="lead mb-small"></p>
                     <p class="mb-small">We have prepared literally <strong>everything you would possibly need building corporate, e-commerce or portfolio website</strong>. If you still miss something, let us know and we will try to include it in theme's future updates.</p>
 
                     <p><a href="#" class="btn btn-template-main">Read more</a>
@@ -67,7 +67,7 @@
                         <div class="col-md-3 col-sm-3">
                             <div class="team-member" data-animate="fadeInUp">
                                 <div class="image">
-                                    <a href="team-member.html">
+                                    <a href="#">
                                         <img src="img/{{$residue->image}}" alt="" class="img-responsive img-circle">
                                     </a>
                                 </div>
