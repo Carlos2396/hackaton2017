@@ -20,8 +20,8 @@ Route::get('/', function () {
 Route::get('/profile', 'SessionsController@show');
 Route::post('/profile', 'SessionsController@storepin');
 
-Route::get('location', 'LocationConstroller@create');
-Route::post('location', 'LocationConstroller@store');
+Route::get('/location/create', 'LocationController@create');
+Route::post('/location', 'LocationController@store');
 
 Route::get('/register', 'RegistrationController@create');
 Route::post('/register', 'RegistrationController@store');

@@ -38,7 +38,7 @@ class PinsTableSeeder extends Seeder
         DB::table('pins')->insert([
             'user_id'=>1,
             'residue_id'=>1,
-            'location_id'=>5,
+            'location_id'=>4,
         ]);
     }
 }
