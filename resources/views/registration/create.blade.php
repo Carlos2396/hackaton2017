@@ -14,15 +14,15 @@
 
                 <hr>
 
-                <form action="customer-orders.html" method="post">
+                <form action="/register" method="POST">
                 {{ csrf_field() }}
                 <div class="form-group">
                     <label for="name">Nombre</label>
                     <input type="text" class="form-control" id="name" name="name" required>
                 </div>
                 <div class="form-group">
-                    <label for="email-login">Email</label>
-                    <input type="text" class="form-control" id="email-login" required>
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email" name="email" required>
                 </div>
                 <div class="form-group">
                     <label for="password">Contraseña</label>
@@ -34,9 +34,10 @@
                     <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" required>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-template-main"><i class="fa fa-user-md"></i> Registrarme</button>
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-user-md"></i>Registrarme</button>
                 </div>
                 </form>
+                @include('layouts.errors')
             </div>
         </div>
 </div>

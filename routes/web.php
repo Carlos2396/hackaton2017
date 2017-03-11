@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('index');
-});
+}) ->name('home');
 
 Route::get('/register', 'RegistrationController@create');
 Route::post('/register', 'RegistrationController@store');

@@ -28,9 +28,10 @@
                     </div>
 
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
                     </div>
                 </form>
+                @include('layouts.errors')
             </div>
         </div>
 </div>
