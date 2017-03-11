@@ -15,8 +15,12 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-12 mb-small">
+                    <div class="col-sm-10 mb-small">
                         <img class="img-responsive" src="img/template-mac.png" alt="">
+                    </div>
+                    <div class="col-sm-2 mb-small", "text-center">
+                        <p><a href="/map" class="btn btn-template-main">Ver mapa</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -35,7 +39,7 @@
                     a enfermedades que ponen en riesgo su salud.</p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="img/reciclaje.jpg" alt="" class="img-responsive">
+                    <img src="img/reciclaje.png" alt="" class="img-responsive">
                 </div>
             </div>
         </div>
@@ -77,7 +81,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center">
-                    <img src="img/mundo.jpeg" alt="" class="img-responsive">
+                    <img src="img/mundo.png" alt="" class="img-responsive">
                 </div>
                 <div class="col-md-6">
                     <h2 class="text-uppercase">Colabora con nosostros</h2>
