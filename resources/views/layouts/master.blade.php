@@ -70,7 +70,6 @@ _________________________________________________________ -->
         </header>
 
         <!-- *** LOGIN MODAL ***-->
-        @include('layouts.signfade')
         
         @yield('content')
 

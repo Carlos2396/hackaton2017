@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    $residues = App\Residue_type::all();
+    return view('index', compact('residues'));
 }) ->name('home');
 
 Route::get('/register', 'RegistrationController@create');
