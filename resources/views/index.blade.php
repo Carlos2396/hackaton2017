@@ -38,7 +38,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="text-uppercase">Everything you need</h2>
+                    <h2 class="text-uppercase">Expliación sobre loque hacemos</h2>
                     <p class="lead mb-small">40+ prepared HTML templates</p>
                     <p class="mb-small">We have prepared literally <strong>everything you would possibly need building corporate, e-commerce or portfolio website</strong>. If you still miss something, let us know and we will try to include it in theme's future updates.</p>
 
@@ -51,6 +51,109 @@
             </div>
         </div>
     </section>
+
+    <section class="bar background-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading">
+                                <h2>Tipos de desechos</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="team-member" data-animate="fadeInUp">
+                                <div class="image">
+                                    <a href="team-member.html">
+                                        <img src="img/person-1.jpg" alt="" class="img-responsive img-circle">
+                                    </a>
+                                </div>
+                                <h3><a href="team-member.html">Han Solo</a></h3>
+                                <p class="role">Founder</p>
+                                <div class="social">
+                                    <a href="#" class="external facebook" data-animate-hover="pulse"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="external gplus" data-animate-hover="pulse"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#" class="external twitter" data-animate-hover="pulse"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="email" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+                                </div>
+                                <div class="text">
+                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                </div>
+                            </div>
+                            <!-- /.team-member -->
+                        </div>
+                        <div class="col-md-3 col-sm-3" data-animate="fadeInUp">
+                            <div class="team-member">
+                                <div class="image">
+                                    <a href="team-member.html">
+                                        <img src="img/person-2.jpg" alt="" class="img-responsive img-circle">
+                                    </a>
+                                </div>
+                                <h3><a href="team-member.html">Luke Skywalker</a></h3>
+                                <p class="role">CTO</p>
+
+                                <div class="social">
+                                    <a href="#" class="external facebook" data-animate-hover="pulse"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="external gplus" data-animate-hover="pulse"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#" class="external twitter" data-animate-hover="pulse"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="email" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+                                </div>
+                                <div class="text">
+                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                </div>
+                            </div>
+                            <!-- /.team-member -->
+                        </div>
+                        <div class="col-md-3 col-sm-3" data-animate="fadeInUp">
+                            <div class="team-member">
+                                <div class="image">
+                                    <a href="team-member.html">
+                                        <img src="img/person-3.png" alt="" class="img-responsive img-circle">
+                                    </a>
+                                </div>
+                                <h3><a href="team-member.html">Princess Leia</a></h3>
+                                <p class="role">Team Leader</p>
+                                <div class="social">
+                                    <a href="#" class="external facebook" data-animate-hover="pulse"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="external gplus" data-animate-hover="pulse"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#" class="external twitter" data-animate-hover="pulse"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="email" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+                                </div>
+                                <div class="text">
+                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                </div>
+                            </div>
+                            <!-- /.team-member -->
+                        </div>
+                        <div class="col-md-3 col-sm-3" data-animate="fadeInUp">
+                            <div class="team-member">
+                                <div class="image">
+                                    <a href="team-member.html">
+                                        <img src="img/person-4.jpg" alt="" class="img-responsive img-circle">
+                                    </a>
+                                </div>
+                                <h3><a href="team-member.html">Jabba Hut</a></h3>
+                                <p class="role">Lead Developer</p>
+                                <div class="social">
+                                    <a href="#" class="external facebook" data-animate-hover="pulse"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="external gplus" data-animate-hover="pulse"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#" class="external twitter" data-animate-hover="pulse"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="email" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+                                </div>
+                                <div class="text">
+                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                </div>
+                            </div>
+                            <!-- /.team-member -->
+                        </div>
+                    </div>
+                    <!-- /.row -->
+
+                </div>
+                <!-- /.container -->
+            </section>
 
     <section class="bar no-mb color-white padding-big text-center-sm">
         <div class="container">
@@ -89,6 +192,13 @@
 
     <section class="bar background-gray no-mb">
         <div class="container">
+        <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading">
+                                <h2>Colaboradores</h2>
+                            </div>
+                        </div>
+                    </div>
             <div class="row">
                 <div class="col-md-12">
                     <ul class="owl-carousel customers">
