@@ -42,13 +42,5 @@ class LocationsTableSeeder extends Seeder
             'address'=>'Calle Pesto #33',
             'user_id'=>1,
         ]);
-
-        DB::table('locations')->insert([
-            'lat'=>19.022364,
-            'lng'=>-95.300000,
-            'name'=>'Arkham asylum for the criminally insane',
-            'address'=>'Av. Independencia #1255',
-            'user_id'=>1,
-        ]);
     }
 }

@@ -16,10 +16,12 @@
             var i;
             //var markers;
             for(i=0; i < types.length; i++){
-                coords = new google.maps.LatLng(lats[i], lngs[i]);
+                var image = '/img/marker' + types[i] + '.png';
+                var coords = new google.maps.LatLng(lats[i], lngs[i]);
                 var marker = new google.maps.Marker({
                     position : coords,
                     map : map,
+                    icon : image,
                     zIndex: i+1
                 });
             }
