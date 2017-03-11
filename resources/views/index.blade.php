@@ -9,23 +9,14 @@
             <div class="container">
                 <div class="row mb-small">
                     <div class="col-sm-12 text-center">
-                        <h1>Universal is great</h1>
-                        <h2>Last week more than 100 companies signed up to help them in their projects.</h2>
+                        <h1>Nombre</h1>
+                        <h2>Eslogan.</h2>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-6 mb-small">
+                    <div class="col-sm-12 mb-small">
                         <img class="img-responsive" src="img/template-mac.png" alt="">
-                    </div>
-
-                    <div class="col-sm-6 text-center-xs">
-                        <p class="text-uppercase">Business. Corporate. Agency.
-                            <br />Portfolio. Blog. E-commerce.
-                            <br />We have covered everything.</p>
-                        <p>See our current packages comparison
-                            <br />to choose the right one for you.</p>
-
                     </div>
                 </div>
             </div>
@@ -38,10 +29,13 @@
                 <div class="col-md-6">
                     <h2 class="text-uppercase">Acerca de nosotros</h2>
                     <p class="lead mb-small"></p>
-                    <p class="mb-small">We have prepared literally <strong>everything you would possibly need building corporate, e-commerce or portfolio website</strong>. If you still miss something, let us know and we will try to include it in theme's future updates.</p>
+                    <p class="mb-small">(Nombre) propone una iniciativa para hacer eficiente la gestión y reciclaje de residuos urbanos, como vidrio, papel y aluminio, al mismo tiempo que promueve la 
+                    participación ciudadana con el fin de dignificar la labor llevada a cabo por un grupo vulnerable de la población como lo son los recuperadores primarios de materiales reciclables, 
+                    quienes realizan el oficio de recolectar, seleccionar, recuperar, transformar, comercializar y reutilizar los residuos sólidos, por lo general en condiciones insalubres, expuestos así 
+                    a enfermedades que ponen en riesgo su salud.</p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="img/template-easy-customize.png" alt="" class="img-responsive">
+                    <img src="img/reciclaje.jpg" alt="" class="img-responsive">
                 </div>
             </div>
         </div>
@@ -83,12 +77,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center">
-                    <img src="img/template-easy-code.png" alt="" class="img-responsive">
+                    <img src="img/mundo.jpeg" alt="" class="img-responsive">
                 </div>
                 <div class="col-md-6">
-                    <h2 class="text-uppercase">Clean, valid and documented code &amp; support</h2>
-                    <p class="lead mb-small">We made our best to help you</p>
-                    <p class="mb-small">Everything in this template is properly named and categorized. In case you don't find in the documentation answer to your question, our support is here to help!</p>
+                    <h2 class="text-uppercase">Colabora con nosostros</h2>
+                    <p class="mb-small">Las ciudades no paran de crecer, garantizar que sean sostenibles y ofrezcan a la población las condiciones ideales para el desarrollo de su vida cotidiana, depende 
+                    de proyectos como (Nombre). La generación de residuos urbanos en nuestro país ha aumentado significativamente en un 43.8%, pasando de 29.3 a 42.1 millones de toneladas producidas. Es 
+                    por esto que invitamos a toda la población a que contribuya con nosotros para lograr mejorar la gestión y reutilización de estos residuos. </p>
                 </div>
             </div>
         </div>
@@ -98,11 +93,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="text-uppercase">Easy to customize</h2>
-                    <p class="mb-small">We have made this template with focus on future client customization. You get <strong>40+ prepared HTML templates</strong>, many <strong>reusable components</strong> and <strong>LESS files</strong> for even easier template customization.</p>
+                    <h2 class="text-uppercase">Ayuda para todos</h2>
+                    <p class="mb-small">Los grupos sociales en condiciones de desventaja, tienen dificultades para incorporarse al desarrollo para acceder a mejores condiciones de vida. Es por esto, que
+                     (Nombre), buscar brindar a los recuperadores primarios de materiales reciclables, mejores condiciones, para que desempeñen su trabajo en condiciones dignas que no pongan en riesgo su 
+                     integridad física y mental. </p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="img/template-easy-customize.png" alt="" class="img-responsive">
+                    <img src="img/basurero.png" alt="" class="img-responsive">
                 </div>
             </div>
         </div>
