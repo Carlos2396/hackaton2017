@@ -12,40 +12,40 @@ class LocationsTableSeeder extends Seeder
     public function run()
     {
         DB::table('locations')->insert([
-            'lat'=>128.123001,
-            'lng'=>56.177454,
+            'lat'=>19.020638,
+            'lng'=>-98.243254,
             'name'=>'Casa',
             'address'=>'Calle 23 #1552',
             'user_id'=>1,
         ]);
 
         DB::table('locations')->insert([
-            'lat'=>56.177454,
-            'lng'=>128.123001,
+            'lat'=>19.020638,
+            'lng'=>-98.300500,
             'name'=>'Trabajo',
             'address'=>'Av. Remota #52',
             'user_id'=>1,
         ]);
 
         DB::table('locations')->insert([
-            'lat'=>25.416000,
-            'lng'=>130.254785,
+            'lat'=>19.020638,
+            'lng'=>-98.3000200,
             'name'=>'Pizzas',
             'address'=>'Blvd. Flores #1542',
             'user_id'=>1,
         ]);
 
         DB::table('locations')->insert([
-            'lat'=>150.006005,
-            'lng'=>13.200785,
+            'lat'=>19.500000,
+            'lng'=>-98.300100,
             'name'=>'Floreria',
             'address'=>'Calle Pesto #33',
             'user_id'=>1,
         ]);
 
         DB::table('locations')->insert([
-            'lat'=>63.035405,
-            'lng'=>211.860124,
+            'lat'=>19.022364,
+            'lng'=>-95.300000,
             'name'=>'Arkham asylum for the criminally insane',
             'address'=>'Av. Independencia #1255',
             'user_id'=>1,

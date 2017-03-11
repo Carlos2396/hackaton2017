@@ -15,17 +15,19 @@
                     <h2>Ubicaciones</h2>
                     @foreach($locations as $location)
                         <div class="col-sm-12">
-                                <div class="box-simple box-dark same-height">
+                                <div class="box-simple box-white same-height">
                                     <h3>{{$location->name}}</h3>
                                     <p>{{$location->address}}.</p>
                                 </div>
                             </div>
                     @endforeach
-                     <button type="button" class="btn btn-lg btn-template-primary"> <a href="/location/create" style="color:white">Agregar ubicación</a> </button>
+                    <p><a href="/localization/create" class="btn btn-template-main">Agregar ubicación</a>
+                    </p>
                 </div>
 
                 <div class="col-sm-8">
-
+                    <h2>Pines actuales</h2>
+                    @include('layouts.map')
                 </div>
                 </div>
             </div>
