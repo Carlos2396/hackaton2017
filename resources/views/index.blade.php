@@ -9,8 +9,8 @@
             <div class="container">
                 <div class="row mb-small">
                     <div class="col-sm-12 text-center">
-                        <h1>Nombre</h1>
-                        <h2>Eslogan.</h2>
+                        <h1>Littering</h1>
+                        <h2>Más Littering para que hay menos <i>litter</i></h2>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@
                 <div class="col-md-6">
                     <h2 class="text-uppercase">Acerca de nosotros</h2>
                     <p class="lead mb-small"></p>
-                    <p class="mb-small">(Nombre) propone una iniciativa para hacer eficiente la gestión y reciclaje de residuos urbanos, como vidrio, papel y aluminio, al mismo tiempo que promueve la 
+                    <p class="mb-small">Littering propone una iniciativa para hacer eficiente la gestión y reciclaje de residuos urbanos, como vidrio, papel y aluminio, al mismo tiempo que promueve la 
                     participación ciudadana con el fin de dignificar la labor llevada a cabo por un grupo vulnerable de la población como lo son los recuperadores primarios de materiales reciclables, 
                     quienes realizan el oficio de recolectar, seleccionar, recuperar, transformar, comercializar y reutilizar los residuos sólidos, por lo general en condiciones insalubres, expuestos así 
                     a enfermedades que ponen en riesgo su salud.</p>
@@ -82,7 +82,7 @@
                 <div class="col-md-6">
                     <h2 class="text-uppercase">Colabora con nosostros</h2>
                     <p class="mb-small">Las ciudades no paran de crecer, garantizar que sean sostenibles y ofrezcan a la población las condiciones ideales para el desarrollo de su vida cotidiana, depende 
-                    de proyectos como (Nombre). La generación de residuos urbanos en nuestro país ha aumentado significativamente en un 43.8%, pasando de 29.3 a 42.1 millones de toneladas producidas. Es 
+                    de proyectos como Littering. La generación de residuos urbanos en nuestro país ha aumentado significativamente en un 43.8%, pasando de 29.3 a 42.1 millones de toneladas producidas. Es 
                     por esto que invitamos a toda la población a que contribuya con nosotros para lograr mejorar la gestión y reutilización de estos residuos. </p>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                 <div class="col-md-6">
                     <h2 class="text-uppercase">Ayuda para todos</h2>
                     <p class="mb-small">Los grupos sociales en condiciones de desventaja, tienen dificultades para incorporarse al desarrollo para acceder a mejores condiciones de vida. Es por esto, que
-                     (Nombre), buscar brindar a los recuperadores primarios de materiales reciclables, mejores condiciones, para que desempeñen su trabajo en condiciones dignas que no pongan en riesgo su 
+                     Littering, buscar brindar a los recuperadores primarios de materiales reciclables, mejores condiciones, para que desempeñen su trabajo en condiciones dignas que no pongan en riesgo su 
                      integridad física y mental. </p>
                 </div>
                 <div class="col-md-6 text-center">
