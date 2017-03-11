@@ -8,10 +8,9 @@
             <div class="box">
                 <h2 class="text-uppercase">Inicio de sesión</h2>
 
-                <p class="lead">Not our registered customer yet?</p>
-                <p>With registration with us new world of fashion, fantastic discounts and much more opens to you! The whole process will not take you more than a minute!</p>
-                <p class="text-muted">If you have any questions, please feel free to <a href="contact.html">contact us</a>, our customer service center is working for you 24/7.</p>
-
+                <p class="lead">Inicia sesión para poder utilizar el servicio de recolección</p>
+                <p>Gracias por contribuir con el ambiente y la sociedad</p>
+                <p class="text-muted">Si aun no eres un usuario registrado da click <a href="/register">aquí</a> para registrate.</p>
                 <hr>
 
                 <form method="POST" action="/login">

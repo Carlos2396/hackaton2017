@@ -6,11 +6,11 @@
     <div class="row">
         <div class="col-md-12">
             <div class="box">
-                <h2 class="text-uppercase">Crear cuenta</h2>
+                <h2 class="text-uppercase">Registro</h2>
 
-                <p class="lead">Not our registered customer yet?</p>
-                <p>With registration with us new world of fashion, fantastic discounts and much more opens to you! The whole process will not take you more than a minute!</p>
-                <p class="text-muted">If you have any questions, please feel free to <a href="contact.html">contact us</a>, our customer service center is working for you 24/7.</p>
+                <p class="lead">¿Aún no te has registrado?</p>
+                <p>Al registrarte podras utilizar nuestro servicio de recolección de reciclables desde la comodidad de tu hogar.</p>
+                <p class="text-muted">Si ya tienes una cuenta da click <a href="/login">aquí</a> para iniciar sesión.</p>
 
                 <hr>
 
