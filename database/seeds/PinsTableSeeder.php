@@ -11,6 +11,34 @@ class PinsTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('locations')->insert([
+            'user_id'=>1,
+            'residue_id'=>1,
+            'location_id'=>1,
+        ]);
+
+        DB::table('locations')->insert([
+            'user_id'=>1,
+            'residue_id'=>2,
+            'location_id'=>2,
+        ]);
+
+        DB::table('locations')->insert([
+            'user_id'=>1,
+            'residue_id'=>3,
+            'location_id'=>3,
+        ]);
+
+        DB::table('locations')->insert([
+            'user_id'=>1,
+            'residue_id'=>4,
+            'location_id'=>4,
+        ]);
+
+        DB::table('locations')->insert([
+            'user_id'=>1,
+            'residue_id'=>1,
+            'location_id'=>5,
+        ]);
     }
 }
