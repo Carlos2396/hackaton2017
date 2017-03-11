@@ -10,7 +10,7 @@
                 <div class="row mb-small">
                     <div class="col-sm-12 text-center">
                         <h1>Littering</h1>
-                        <h2>Más Littering para que hay menos <i>litter</i></h2>
+                        <h2>Más Littering para que haya menos <i>litter</i></h2>
                     </div>
                 </div>
 

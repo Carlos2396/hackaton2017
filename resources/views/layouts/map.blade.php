@@ -1,5 +1,4 @@
 <div>
-
     <div id="map" class="col-sm-12" style="height: 500px"></div>
     <script type="text/javascript">
         var lats = {{json_encode($lats)}};
@@ -13,6 +12,7 @@
                 zoom: 15
             });
 
+            
             var i;
             var markers = [];
             for(i=0; i < types.length; i++){
@@ -26,10 +26,7 @@
                 });
                 markers.push(marker);
             }
-            var markerCluster = new MarkerClusterer(map, markers, {imagePath: 'imag/marker0'});
+        
         }
-
     </script>
-
-
 </div>

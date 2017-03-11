@@ -30,6 +30,6 @@ class LocationController extends Controller
             'lng' => (double)request('lng')
         ]);
 
-        return view('profile.index');
+        return redirect('/profile');
     }
 }

@@ -30,7 +30,6 @@
                 <button type="submit" class="btn btn-template-main" onclick="setCoords();"><i class="fa fa-user-md"></i>Agregar</button>
                 <script type="text/javascript">
                     function setCoords(){
-                        alert("You button was pressed");
                         document.getElementById('lat').value = marker.getPosition().lat();
                         document.getElementById('lng').value = marker.getPosition().lng();
                     };
