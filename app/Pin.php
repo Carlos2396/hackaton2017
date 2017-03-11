@@ -7,6 +7,8 @@ use App\Residue_type;
 
 class Pin extends Model
 {
+    protected $fillable = ['user_id', 'residue_id', 'location_id'];
+
     public function residue_type(){
         return $this->belongsTo(Residue_type::class);
     }

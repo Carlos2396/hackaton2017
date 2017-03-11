@@ -26,8 +26,46 @@
                 </div>
 
                 <div class="col-sm-8">
-                    <h2>Pines actuales</h2>
-                    @include('layouts.map')
+                    <div class="row">
+                        <h2>Pines actuales</h2>
+                        @include('layouts.map')
+                    </div>
+                    <br>
+
+                    <div class="row">
+                    <h4>Agregar un nuevo pin</h4>
+                        <form method="POST" action="/profile">
+                            {{ csrf_field() }}
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="location">Ubicación</label>
+                                    <select name="location" id="location">
+                                        @foreach($locations as $location)
+                                            <option value="{{$location->id}}">{{$location->name}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="residue_type">Tipo de residuo</label>
+                                    <select name="residue_type" id="residue_type">
+                                        @foreach($residue_types as $residue_type)
+                                            <option value="{{$residue_type->id}}">{{$residue_type->name}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary">Agregar</button>
+                                </div>
+                            </div>
+                        </form>
+                </div>
                 </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@
             });
 
             var i;
-            //var markers;
+            var markers = [];
             for(i=0; i < types.length; i++){
                 var image = '/img/marker' + types[i] + '.png';
                 var coords = new google.maps.LatLng(lats[i], lngs[i]);
@@ -24,7 +24,9 @@
                     icon : image,
                     zIndex: i+1
                 });
+                markers.push(marker);
             }
+            var markerCluster = new MarkerClusterer(map, markers, {imagePath: 'imag/marker0'});
         }
 
     </script>

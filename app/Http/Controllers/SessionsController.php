@@ -4,12 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Location;
+use App\Pin;
 use App\Residue_type;
 
 class SessionsController extends Controller
 {
     public function __construct(){
-        $this->middleware('guest')->except(['destroy', 'show']);
+        $this->middleware('guest')->except(['destroy', 'show', 'storepin']);
     }
 
     public function create(){
@@ -35,6 +36,7 @@ class SessionsController extends Controller
     public function show(){
         $user =  auth()->user();
         $locations = $user->locations;
+        $residue_types = Residue_type::all();
         $pins = $user->pins->toArray();
         $lats;
         $lngs;
@@ -48,6 +50,16 @@ class SessionsController extends Controller
 
 
 
-        return view('profile.index', compact('locations', 'lats', 'lngs', 'types'));
+        return view('profile.index', compact('locations', 'residue_types', 'lats', 'lngs', 'types'));
+    }
+
+    public function storepin(){
+        Pin::create([
+            'user_id' => auth()->user()->id,
+            'residue_id' => request('residue_type'),
+            'location_id' => request('location')
+        ]);
+
+        redirect('profile');
     }
 }
