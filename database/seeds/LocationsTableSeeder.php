@@ -46,7 +46,7 @@ class LocationsTableSeeder extends Seeder
         DB::table('locations')->insert([
             'lat'=>63.035405,
             'lng'=>211.860124,
-            'name'=>'Arkaham asylum for the criminally insane',
+            'name'=>'Arkham asylum for the criminally insane',
             'address'=>'Av. Independencia #1255',
             'user_id'=>1,
         ]);
