@@ -60,6 +60,6 @@ class SessionsController extends Controller
             'location_id' => request('location')
         ]);
 
-        redirect('/profile');
+        return redirect('/profile');
     }
 }
