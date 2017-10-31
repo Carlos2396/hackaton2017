@@ -24,6 +24,7 @@ Route::get('/map', 'PinController@show');
 
 Route::get('/location', 'LocationController@create');
 Route::post('/location', 'LocationController@store');
+Route::get('/location/delete/{location_id}', 'LocationController@destroy');
 
 Route::get('/register', 'RegistrationController@create');
 Route::post('/register', 'RegistrationController@store');

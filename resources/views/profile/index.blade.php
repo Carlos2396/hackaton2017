@@ -11,22 +11,28 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4">
-                    <h2>Ubicaciones</h2>
+                <div class="col-md-12">
+                    <div="row">
+                        <div class="col-md-3">
+                            <h2>Ubicaciones</h2>
+                        </div>
+                        <div class="col-md-9">
+                            <a href="/location" class="btn btn-primary text-center">Agregar ubicación</a>
+                        </div>
+                    </div>
                     @foreach($locations as $location)
-                        <div class="col-sm-12">
+                        <div class="col-sm-3">
                                 <div class="box-simple box-white same-height">
                                     <h3>{{$location->name}}</h3>
                                     <p>{{$location->address}}.</p>
+                                    <a href="/location/delete/{{$location->id}}"><button type="button" class="btn btn-xs btn-danger">Eliminar</button></a>
+                                    <button type="button" class="btn btn-xs btn-info">Editar</button>
                                 </div>
                             </div>
                     @endforeach
-                    <div class="text-center">
-                        <p><a href="/location" class="btn btn-template-main">Agregar ubicación</a>
-                        </p>
-                    </div>
                 </div>
-
+            </div>
+            <div class="row">
                 <div class="col-sm-8">
                     <div class="row">
                         <h2>Pines actuales</h2>

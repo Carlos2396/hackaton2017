@@ -32,4 +32,9 @@ class LocationController extends Controller
 
         return redirect('/profile');
     }
+
+    public function destroy($location_id){
+        Location::destroy($location_id);
+        return redirect('/profile');
+    }
 }
