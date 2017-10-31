@@ -15,19 +15,19 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-10 mb-small">
+                    <div class="col-sm-8 mb-small">
                         <img class="img-responsive" src="img/template-mac.png" alt="">
                     </div>
-                    <div class="col-sm-2 mb-small", "text-center">
-                        <p><a href="/map" class="btn btn-template-main">Ver mapa</a>
-                        </p>
+                    <div class="col-sm-4 mb-small text-center">
+                        <p>Nuestro mapa muestra los pines en sus respectivas ubiciones.</p> 
+                        <p><a href="/map" class="btn btn-lg btn-warning">Ver mapa</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bar background-gray no-mb padding-big text-center-sm">
+    <section class="bar background-gray no-mb padding-big text-center-sm" id="aboutus">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -109,7 +109,7 @@
         </div>
     </section>
 
-    <section class="bar background-gray no-mb">
+    <section class="bar background-gray no-mb" id="partners">
         <div class="container">
         <div class="row">
                         <div class="col-md-12">

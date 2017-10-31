@@ -21,18 +21,9 @@
             <div class="navbar-collapse collapse" id="navigation">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown active">
-                        <a href="javascript: void(0)" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="/">General</a>
-                            </li>
-                            <li><a href="/">Acerca de nosotros</a>
-                            </li>
-                            <li><a href="/">Colaboradores</a>
-                            </li>
-                        </ul>
-                    </li>
-                    
+                    <li><a href="/" >Inicio</a></li>
+                    <li><a href="/#aboutus">Acerca de nosotros</a></li>
+                    <li><a href="/#partners">Colaboradores</a></li>
                 </ul>
 
             </div>
