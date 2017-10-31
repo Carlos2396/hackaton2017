@@ -15,6 +15,7 @@ class UsersTableSeeder extends Seeder
         	'name' => 'Alejandro Hernandez',
         	'email' => 'alejandrohv97@gmail.com',
         	'password' => bcrypt('secret'),
+            'able' => true
         ]);
     }
 }
